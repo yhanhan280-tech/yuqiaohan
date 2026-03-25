@@ -1,0 +1,9 @@
+component,lambda
+power_supply,0.0001
+plc,0.0002
+safety_chain,0.00015
+lift_motor,0.0005
+lift_encoder,0.0003
+travel_motor,0.0004
+travel_encoder,0.0003
+grab_brake,0.0006

@@ -1,0 +1,6 @@
+stage,duration,power_supply,plc,safety_chain,lift_motor,lift_encoder,travel_motor,travel_encoder,grab_brake
+Pick,0.25,1,1,1,0,0,0,0,1
+Lift,0.5,1,1,1,1,1,0,0,1
+TravelLoaded,1.0,1,1,1,0,0,1,1,0
+Place,0.5,1,1,1,1,1,0,0,1
+ReturnEmpty,0.75,1,1,1,0,0,1,1,0

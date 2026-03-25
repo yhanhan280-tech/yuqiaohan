@@ -1,0 +1,36 @@
+{
+  "model": {
+    "series": [
+      {
+        "stage": "Pick",
+        "model": {
+          "series": ["power_supply", "plc", "safety_chain", "grab_brake"]
+        }
+      },
+      {
+        "stage": "Lift",
+        "model": {
+          "series": ["power_supply", "plc", "safety_chain", "lift_motor", "lift_encoder", "grab_brake"]
+        }
+      },
+      {
+        "stage": "TravelLoaded",
+        "model": {
+          "series": ["power_supply", "plc", "safety_chain", "travel_motor", "travel_encoder"]
+        }
+      },
+      {
+        "stage": "Place",
+        "model": {
+          "series": ["power_supply", "plc", "safety_chain", "lift_motor", "lift_encoder", "grab_brake"]
+        }
+      },
+      {
+        "stage": "ReturnEmpty",
+        "model": {
+          "series": ["power_supply", "plc", "safety_chain", "travel_motor", "travel_encoder"]
+        }
+      }
+    ]
+  }
+}
